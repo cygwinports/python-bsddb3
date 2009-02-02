@@ -9,42 +9,42 @@ methods: btree, hash, recno, and queue.
 Runtime requirements:
   cygwin-1.5.25-15
   libdb4.7-4.7.25.1-1
-  python-2.5.2-3
+  python-2.5.4-1
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-20080624-2
-  cygport-0.4.0-1
+  cygport-0.4.3-1
   gcc-core-3.4.4-3
 
 Canonical website:
   http://www.jcea.es/programacion/pybsddb.htm
 
 Canonical download:
-  http://pypi.python.org/pypi/bsddb3/4.7.3
+  http://pypi.python.org/pypi/bsddb3/
 
 -------------------------------------------
 
 Build instructions:
-  unpack python-bsddb3-4.7.3-X-src.tar.bz2
+  unpack python-bsddb3-4.7.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-bsddb3-4.7.3-X.cygport all
+  cygport ./python-bsddb3-4.7.4-X.cygport all
 
 This will create:
-  /usr/src/python-bsddb3-4.7.3-X-src.tar.bz2
-  /usr/src/python-bsddb3-4.7.3-X.tar.bz2
+  /usr/src/python-bsddb3-4.7.4-X-src.tar.bz2
+  /usr/src/python-bsddb3-4.7.4-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/include/python2.5/bsddb3/bsddb.h
-  /usr/lib/python2.5/site-packages/bsddb3-4.7.3-py2.5.egg-info/PKG-INFO
-  /usr/lib/python2.5/site-packages/bsddb3-4.7.3-py2.5.egg-info/SOURCES.txt
-  /usr/lib/python2.5/site-packages/bsddb3-4.7.3-py2.5.egg-info/dependency_links.txt
-  /usr/lib/python2.5/site-packages/bsddb3-4.7.3-py2.5.egg-info/top_level.txt
+  /usr/lib/python2.5/site-packages/bsddb3-4.7.4-py2.5.egg-info/PKG-INFO
+  /usr/lib/python2.5/site-packages/bsddb3-4.7.4-py2.5.egg-info/SOURCES.txt
+  /usr/lib/python2.5/site-packages/bsddb3-4.7.4-py2.5.egg-info/dependency_links.txt
+  /usr/lib/python2.5/site-packages/bsddb3-4.7.4-py2.5.egg-info/top_level.txt
   /usr/lib/python2.5/site-packages/bsddb3/__init__.py
   /usr/lib/python2.5/site-packages/bsddb3/__init__.pyc
   /usr/lib/python2.5/site-packages/bsddb3/__init__.pyo
@@ -136,13 +136,16 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/bsddb3/tests/test_thread.py
   /usr/lib/python2.5/site-packages/bsddb3/tests/test_thread.pyc
   /usr/lib/python2.5/site-packages/bsddb3/tests/test_thread.pyo
-  /usr/share/doc/python-bsddb3-4.7.3/ChangeLog
-  /usr/share/doc/python-bsddb3-4.7.3/README.txt
-  /usr/share/doc/python-bsddb3-4.7.3/TODO.txt
+  /usr/share/doc/python-bsddb3-4.7.4/ChangeLog
+  /usr/share/doc/python-bsddb3-4.7.4/README.txt
+  /usr/share/doc/python-bsddb3-4.7.4/TODO.txt
 
 ------------------
 
 Port Notes:
+
+----- version 4.7.4-1 -----
+Version bump.
 
 ----- version 4.7.3-1 -----
 Initial release for Cygwin.
