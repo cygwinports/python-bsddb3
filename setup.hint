@@ -1,5 +1,5 @@
 category: Python
-requires: cygwin libdb4.7 python
+requires: libdb4.7 python
 sdesc: "Python Berkeley DB bindings"
 ldesc: "This module provides a nearly complete wrapping of the 
 Oracle/Sleepycat C API for the Database Environment, Database, Cursor, 
