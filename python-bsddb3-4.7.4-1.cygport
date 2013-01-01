@@ -1,2 +1,0 @@
-ORIG_PN="bsddb3"
-inherit distutils
