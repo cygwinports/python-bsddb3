@@ -2,7 +2,7 @@ inherit distutils
 
 NAME="python-bsddb3"
 VERSION=5.3.0
-RELEASE=1
+RELEASE=2
 CATEGORY="Python"
 SUMMARY="Python Berkeley DB bindings"
 DESCRIPTION="This module provides a nearly complete wrapping of the Oracle C
