@@ -1,10 +1,15 @@
-inherit python-distutils
+inherit python-wheel
 
 NAME="python-bsddb3"
-VERSION=6.2.1
+VERSION=6.2.4
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python Berkeley DB bindings"
 DESCRIPTION="This module provides a nearly complete wrapping of the Oracle C
 API for the Database Environment, Database, Cursor, Sequence and Transaction
 objects, and each of these is exposed as a Python type in the bsddb3.db module."
+
+python2_bsddb3_CONTENTS="${PYTHON2_INCLUDEDIR#/}/bsddb3/ ${python2_bsddb3_CONTENTS}"
+python3_bsddb3_CONTENTS="${PYTHON3_INCLUDEDIR#/}/bsddb3/ ${python3_bsddb3_CONTENTS}"
+
+
