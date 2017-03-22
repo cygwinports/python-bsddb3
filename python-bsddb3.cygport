@@ -11,5 +11,4 @@ objects, and each of these is exposed as a Python type in the bsddb3.db module."
 
 python2_bsddb3_CONTENTS="${PYTHON2_INCLUDEDIR#/}/bsddb3/ ${python2_bsddb3_CONTENTS}"
 python3_bsddb3_CONTENTS="${PYTHON3_INCLUDEDIR#/}/bsddb3/ ${python3_bsddb3_CONTENTS}"
-
-
+python_bsddb3_debuginfo_OBSOLETES="python3-bsddb3-debuginfo"
